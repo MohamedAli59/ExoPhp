@@ -15,6 +15,7 @@ require('fonction.php');
 <?php
 
  number(25);
+ input(5);
 
 ?>
 

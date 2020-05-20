@@ -6,9 +6,15 @@
 function number($x)
 {
 
-    for ($i = 0; $i < $x; $i++) {
+    for ($i = 0; $i <= $x; $i++) {
         echo $i;
     }
 
+}
+
+function input($x){
+    for ($i = 0; $i <= $x; $i++) {
+        echo $i.'<input>'.'<br>';
+    }
 }
 ?>
