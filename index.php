@@ -14,10 +14,24 @@ require('fonction.php');
 <body>
 <?php
 
- number(25);
- input(5);
+number(25);
+input(5);
 
+
+
+ $array = array(
+                  array('name' => 'nom', 'type' => 'text', 'class' => 'modal' ),
+array('name' => 'prenom', 'type' => 'text', 'class' =>'modal' ),
+array('name' => 'valider', 'type' => 'submit', 'class' =>'btn')
+);
 ?>
+<form>
+    <?php
+  createForm($array);
+ ?>
+
+</form>
+
 
 </body>
 </html>
